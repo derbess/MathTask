@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decode Courses система управления курсами</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/widgets/logo.png" alt="Logo">
+        </a>
+
+        <div class="nav">
+            <a href="#about" class="scroll-link">О Нас</a>
+            <a href="#services" class="scroll-link">Услуги</a>
+            <a href="#reviews" class="scroll-link">Отзывы</a>
+            <a href="#contacts" class="scroll-link">Контакты</a>
+            <a href="/class_room" class="btn">Войти</a>
+        </div>
+
+        <button class="mobile-nav fas fa-bars" onclick="toggleModal()"></button>
+    </header>
+
+    <section class="main-home container">
+        <div class="home-content">
+            <span class="title">Добро пожаловать в Decode.Courses</span>
+            <h2>Создайте свои курсы с нуля!</h2>
+            <p>Платформа для продажи и проведения обучения</p>
+            <a href="#connect" class="btn scroll-link">Попробовать бесплатно</a>
+        </div>
+        <div class="home-img">
+        </div>
+    </section>
+
+    <div class="information container bg-blue" id="about">
+        <h3>Сделано в Казахстане, работает по всему миру</h3>
+        <div class="wrap">
+
+            <div class="info-item template-item">
+                <h3>54 000</h3>
+                <p>клиентов по всему миру</p>
+            </div>
+            <div class="info-item template-item">
+                <h3>155</h3>
+                <p>стран используют Decode.Courses</p>
+            </div>
+            <div class="info-item template-item">
+                <h3>10 000</h3>
+                <p>школ по всему миру</p>
+            </div>
+            <div class="info-item template-item">
+                <h3>54 000</h3>
+                <p>клиентов по всему миру</p>
+            </div>
+
+        </div>
+
+    </div>
+    <section class="container section-padding main-services " id="services">
+
+        <div class="section-top">
+            <h3 class="title">Наши самые</h3>
+            <p>Популярные Услуги</p>
+        </div>
+
+        <div class="wrap">
+
+            <div class="service-item template-item">
+                <div class="service-circle">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nulla voluptates laboriosam.</p>
+            </div>
+
+            <div class="service-item template-item">
+                <div class="service-circle">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nulla voluptates laboriosam.</p>
+            </div>
+
+            <div class="service-item template-item">
+                <div class="service-circle">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nulla voluptates laboriosam.</p>
+            </div>
+
+            <div class="service-item template-item">
+                <div class="service-circle">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nulla voluptates laboriosam.</p>
+            </div>
+
+            <div class="service-item template-item">
+                <div class="service-circle">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nulla voluptates laboriosam.</p>
+            </div>
+
+            <div class="service-item template-item">
+                <div class="service-circle">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nulla voluptates laboriosam.</p>
+            </div>
+
+        </div>
+
+        <a href="#connect" class="btn btn-center scroll-link">Попробовать бесплатно</a>
+
+    </section>
+
+    <div class="connect section-padding container bg-blue" id="connect">
+        <div class="connect-info">
+        </div>
+        <form method="POST" class="form">
+            <h3>Оставьте свою заявку на пробное использование платформы</h3>
+
+            <div class="form-item">
+                <input type="text" placeholder="Ваше Имя">
+            </div>
+            <div class="form-item">
+                <input type="text" placeholder="Название вашей компаний">
+            </div>
+            <div class="form-item">
+                <input type="email" placeholder="Ваш Email">
+            </div>
+            <div class="form-item">
+                <input type="text" placeholder="Ваш номер телефона">
+            </div>
+            <button class="btn">Отправить</button>
+        </form>
+    </div>
+
+    <section class="container reviews" id="reviews">
+        <div class="review-item">
+            <img src="images/widgets/profile.jpeg" alt="review-person">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel nihil reprehenderit incidunt soluta
+                voluptatum odio dicta perferendis tempore, ab totam officiis? Dolores, sequi fugiat iusto mollitia autem
+                officia neque ex.
+                Incidunt asperiores fugit sunt quia illum, aliquam doloribus, nesciunt alias nam natus rem nemo sint
+                laboriosam! At quaerat nihil expedita, animi dolor nisi cum unde harum sapiente ab. Reprehenderit,
+                cupiditate?</p>
+            <h3>Person Name, Person Surname</h3>
+        </div>
+
+        <div class="review-item">
+            <img src="images/widgets/profile.jpeg" alt="review-person">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel nihil reprehenderit incidunt soluta
+                voluptatum odio dicta perferendis tempore, ab totam officiis? Dolores, sequi fugiat iusto mollitia autem
+                officia neque ex.
+                Incidunt asperiores fugit sunt quia illum, aliquam doloribus, nesciunt alias nam natus rem nemo sint
+                laboriosam! At quaerat nihil expedita, animi dolor nisi cum unde harum sapiente ab. Reprehenderit,
+                cupiditate?</p>
+            <h3>Person Name, Person Surname</h3>
+        </div>
+
+        <div class="review-item">
+            <img src="images/widgets/profile.jpeg" alt="review-person">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel nihil reprehenderit incidunt soluta
+                voluptatum odio dicta perferendis tempore, ab totam officiis? Dolores, sequi fugiat iusto mollitia autem
+                officia neque ex.
+                Incidunt asperiores fugit sunt quia illum, aliquam doloribus, nesciunt alias nam natus rem nemo sint
+                laboriosam! At quaerat nihil expedita, animi dolor nisi cum unde harum sapiente ab. Reprehenderit,
+                cupiditate?</p>
+            <h3>Person Name, Person Surname</h3>
+        </div>
+
+    </section>
+    <div class="maps" id="contacts">
+        <div class="map-block">
+        </div>
+        <div class="contact-info">
+            <h3>Наши контакты</h3>
+            <a href="#">
+                <i class="fas fa-phone-alt"></i>
+                +7(777)-777-77-77
+            </a>
+            <a href="#">
+                <i class="far fa-envelope"></i>
+                decode.course@gmail.com
+            </a>
+            <a href="#">
+                <i class="fas fa-map-marker-alt"></i>
+                БЦ "Bayzak" Байзакова 291, просп. Абая 52в, 5 этаж, 512 офис
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer"> 
+        © <span id="year"></span> «Decode-Group». Все права защищены.
+    </footer>
+
+    <div class="mobile-modal">
+        <div class="mobile-content nav">
+            <a href="#" class="logo">
+                <img src="images/widgets/logo.png" alt="Logo">
+            </a>
+            <a href="#about" class="scroll-link">О Нас</a>
+            <a href="#services" class="scroll-link">Услуги</a>
+            <a href="#reviews" class="scroll-link">Отзывы</a>
+            <a href="#contacts" class="scroll-link">Контакты</a>
+            <a href="#" class="btn">Войти</a>
+
+            <button class="close-btn" onclick="toggleModal()"> 
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>

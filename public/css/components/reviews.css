@@ -1,0 +1,27 @@
+.reviews {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.review-item {
+    text-align: center;
+}
+
+.review-item > img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.review-item > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.review-item > h3 {
+    font-weight: 600;
+    font-size: 20px;
+}

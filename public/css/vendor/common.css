@@ -1,0 +1,121 @@
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.title  {
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 15px;
+    width: fit-content;
+    display: block;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background-color: #0071DC;
+    border-radius: 30px;
+}
+
+.btn {
+    border: none;
+    background: none;
+    background-color: #0071DC;
+    color: #fff;
+    font-weight: 600;
+    width: fit-content;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px 0px rgb(84 104 231 / 20%);
+    transition: .4s;
+    letter-spacing: 1.5px;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    box-shadow: 0px 10px 20px 0px rgb(84 104 231 / 20%);
+    background-color: #FFF;
+    color: #0071DC;
+}
+
+.btn-center {
+    margin: 50px auto 0;
+    font-size: 24px;
+    height: 50px;
+}
+
+.section-top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-top > .title {
+    margin: auto;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.section-top > p {
+    font-size: 28px; 
+    margin-top: 15px;  
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bg-blue {
+    background-color: #0071DC;
+    color: #fff;
+}
+
+.bg-blue a, .bg-blue p, .bg-blue h3{
+    color: #fff;
+}
+
+.bg-blue .title::after {
+    background-color: #fff;
+}
+
+
+.bg-blue .info-item > h3 {
+    color: #fff;
+}
+
+.bg-blue .btn {
+    background-color: #fff;
+    color: #0071DC;
+}
+.bg-blue .btn:hover {
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.slick-dots {
+    left: 0;
+    right: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
+}

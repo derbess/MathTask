@@ -1,0 +1,11 @@
+{
+    "name": "Math Test",
+    "version": "1.0.0",
+    "description": "",
+    "title": "",
+    "order": [],
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+  }

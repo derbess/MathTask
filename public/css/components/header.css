@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 80px;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    transition: all .3s;
+}
+
+.header.active {
+    z-index: 120;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 3%), 0 3px 6px rgb(0 0 0 / 6%);
+}
+
+.logo > img {
+    width: 200px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav > a {
+    color: #333;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s;
+    position: relative;
+    padding: 10px 0;
+}
+
+
+.nav > .btn {
+    color: #fff;
+    padding: 0 25px;
+}
+
+.nav > .btn:hover {
+    color: #0071DC;
+}
+
+
+.nav > a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    background-color: #0071DC;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    opacity: 0;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+.nav > a:not(:last-child):hover::after {
+    opacity: 1;
+}
+
+.nav > a.active::after {
+    opacity: 1;
+}
+
+.mobile-nav {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #0071DC;
+    cursor: pointer;
+    display: none;
+}

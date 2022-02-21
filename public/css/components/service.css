@@ -1,0 +1,33 @@
+.main-services {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+
+.service-item {
+    width: calc(100% / 3 - .5%);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-circle {
+    background-color: #0071DC;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.service-circle > i {
+    font-size: 40px;
+    color: #fff;
+}
+
+.service-item > p {
+    font-weight: 500;
+}
